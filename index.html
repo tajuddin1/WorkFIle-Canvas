@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar rounded-1 px-lg-4 py-0">
+                <div class="row flex-grow-1 align-items-center">
+                    <div class="col-6 col-lg-3">
+                        <a class="navbar-brand d-flex ps-1 p-0" href="">
+                            <img class="d-none d-lg-block" src="image/logo-dark@2x.png" alt="">
+                            <img class="d-lg-none" src="image/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 offcanvas-lg offcanvas-top justify-content-end" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                        <div class="container p-0">
+                            <ul class="list-unstyled mb-0 d-flex flex-column flex-lg-row justify-content-center">
+                                <li class="nav-list"><a class="nav-link px-3" href="">Home</a></li>
+                                <li class="nav-list"><a class="nav-link px-3" href="">Doctors</a></li>
+                                <li class="nav-list"><a class="nav-link px-3" href="">Service</a></li>
+                                <li class="nav-list"><a class="nav-link px-3" href="">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 d-flex align-items-center gap-3 justify-content-end nav-right">
+                        <a href="#" class="text-decoration-none fs-5 me-3"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <a href="#" class="number-btn py-2 px-4 rounded-2 me-2 ff-rubik fw-medium text-decoration-none"><i class="fa-solid fa-phone-volume d-xl-none"></i> <span class="d-none d-xl-block">+01 4424 579</span></a>
+                        <button class="border-0 bg-transparent d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom"><i class="fa-solid fa-bars text-dark fs-5"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+        </div>
+    </header>
+    <!-- <section class="nav-section"> -->
+
+    <section class="hero-section section-padding">
+        <div class="container">
+            <div class="row g-4 d-flex justify-content-between align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-text">
+                        <h1 class="mb-3">
+                            <div class="short">
+                                <img class="position" src="image/wave.svg" alt="" width="50px">
+                            </div> 
+                            A Truly amazing <span class="highlight position-relative z-1">Doctor</span> is hard to find. 
+                            <img src="image/smile.svg" alt="" width="50px">
+                        </h1>
+                        <p class="mb-4">Rapidiously Unceptualize inexpensive value through functionalized markets web services.
+                        </p>
+                        <button class="btn btn-hero fw-medium d-flex align-items-center gap-2 p-3" type="button">Request an Appoinment <i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="col-lg-6 position-relative">
+                    <div class="row">
+                        <div class="col-6 m-auto">
+                            <img class="img-fluid rounded-3" src="image/3.jpg" alt="">
+                        </div>
+                        <div class="col-6">
+                            <img class="img-fluid rounded-3" src="image/2.jpg" alt="">
+                            <img class="img-fluid rounded-3 mt-4" src="image/1.jpg" alt="">
+                        </div>
+                    </div>
+                    <img class="img mt-3" src="image/capsule.svg" alt="" width="70px">
+                    <div class="discount p-4 bg-white rounded-2 mt-2 mt-lg-0">
+                        <div class="user-images mb-3">
+                            <img class="img-fluid object-fit-cover rounded-circle border border-white border-3" src="image/1 (1).jpg" alt="">
+                            <img class="img-fluid object-fit-cover rounded-circle border border-white border-3" src="image/2 (1).jpg" alt="">
+                            <img class="img-fluid object-fit-cover rounded-circle border border-white border-3" src="image/3 (1).jpg" alt="">
+                            <img class="img-fluid object-fit-cover rounded-circle border border-white border-3" src="image/4.jpg" alt="">
+                        </div>
+
+                        <span class="mb-3 d-block">Get <strong>20%</strong> Instant cahback on your First Appoinmen Booking.</span>
+                        <a class="btn btn-sm  fw-medium btn-dark-v py-1 btn" href="#">Check Offers</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- </section> -->
+    
+    <section class="grid-section section-padding" style="background-color: #f9f6e9;">
+        <div class="container">
+            <div class="column-header text-center">
+                <div class="mb-3">
+                    <h1 class="section-title fw-light">We take your Health Seriously</h1>
+                </div>
+                <div class="column-p">
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic alias vitae <br>
+                        necessitatibus
+                        possimus accusamus illum.</p>
+                </div>
+            </div>
+
+            <div class="card-body text-center">
+                <a href="#" class="text-decoration-none">
+                    <div class="card-text">
+                        <span class="card-number">01.</span>
+                        <h2 class="fw-semibold">Dermatologist</h2>
+                        <small>Eczema, Hair Loss, Acne, Skin cancer..</small>
+                    </div>
+                </a>
+                <a href="#" class="text-decoration-none">
+                    <div class="card-text">
+                        <span class="card-number">02.</span>
+                        <h2 class="fw-semibold">Neurologist</h2>
+                        <small>Neuromuscular disorders, ADD, brain tumors..</small>
+                    </div>
+                </a>
+                <a href="#" class="text-decoration-none">
+                    <div class="card-text">
+                        <span class="card-number">03.</span>
+                        <h2 class="fw-semibold">Radiologist</h2>
+                        <small>Cancers or tumors. Blockages in your arteries or veins</small>
+                    </div>
+                </a>
+                <a href="#" class="text-decoration-none">
+                    <div class="card-text">
+                        <span class="card-number">04.</span>
+                        <h2 class="fw-semibold">Pathologist</h2>
+                        <small>bleeding disorders, clotting problems, and anemia</small>
+                    </div>
+                </a>
+                <a href="#" class="text-decoration-none">
+                    <div class="card-text">
+                        <span class="card-number">05.</span>
+                        <h2 class="fw-semibold">Pulmonologist</h2>
+                        <small>asthma and chronic obstructive pulmonary disease (COPD)</small>
+                    </div>
+                </a>
+                <a href="#" class="text-decoration-none">
+                    <div class="card-text">
+                        <span class="card-number">06.</span>
+                        <h2 class="fw-semibold">Dermatologist</h2>
+                        <small>Acne, blocked skin follicles that lead to oil, bacteria and dead skin buildup in your pores.</small>
+                    </div>
+                </a>
+                <a href="#" class="text-decoration-none">
+                    <div class="card-text">
+                        <span class="card-number">07.</span>
+                        <h2 class="fw-semibold">Psychiatrist</h2>
+                        <small>Depression, bipolar disorder, and other mood disorders.
+                            Eating disorders.</small>
+                    </div>
+                </a>
+                <a href="#" class="text-decoration-none">
+                    <div class="card-text">
+                        <span class="card-number">08.</span>
+                        <h2 class="fw-semibold">Psychiatrist</h2>
+                        <small>Atherosclerosis, High blood pressure, High cholesterol, Heart Failure..</small>
+                    </div>
+                </a>
+                <a href="#" class="text-decoration-none">
+                    <div class="card-text">
+                        <span class="card-number">09.</span>
+                        <h2 class="fw-semibold">Orthopedic</h2>
+                        <small>fractures, Knee joint ligament injuries, Knee joint damage due to different
+                            causes of arthritis</small>
+                    </div>
+                </a>
+                <a href="#" class="text-decoration-none">
+                    <div class="card-text">
+                        <span class="card-number">10.</span>
+                        <h2 class="fw-semibold">Gastroenterology</h2>
+                        <small>Constipation, Crohn's disease, Diarrhoea, Vomiting in children,
+                            Gastritis..</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
