@@ -325,4 +325,10 @@ small {
     .container{
         max-width: 95%;
     }
+    .navbar-brand img {
+        max-width: 120px;
+    }
+    .offcanvas-lg.offcanvas-top {
+        padding-top: 80px;
+    }
 }
